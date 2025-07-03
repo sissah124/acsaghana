@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - ACSA</title>
+
+  <!-- Tailwind & Font Awesome -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-[#001F5B] text-white sticky top-0 z-50 shadow" role="navigation">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+     <a href="index.html" class="flex items-center gap-3 group">
+  <img src="/image/teamlogo.jpg" alt="ACSA Logo" class="h-10 w-10 object-contain transition-transform group-hover:scale-110 duration-300" />
+  <span class="text-xl font-bold text-white group-hover:text-[#D72638] transition">ACSA</span>
+</a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-[#D72638]">Home</a>
+        <a href="about.html" class="text-[#D72638] font-semibold">About</a>
+        <a href="programs.html" class="hover:text-[#D72638]">Programs</a>
+        <a href="gallery.html" class="hover:text-[#D72638]">Gallery</a>
+        <a href="contact.html" class="hover:text-[#D72638]">Contact</a>
+      </nav>
+      <button id="menu-btn" class="md:hidden text-2xl" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-[#001640]">
+      <a href="index.html" class="block hover:text-[#D72638]">Home</a>
+      <a href="about.html" class="block text-[#D72638] font-semibold">About</a>
+      <a href="programs.html" class="block hover:text-[#D72638]">Programs</a>
+      <a href="gallery.html" class="block hover:text-[#D72638]">Gallery</a>
+      <a href="contact.html" class="block hover:text-[#D72638]">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+<section 
+  class="relative text-white text-center flex items-center justify-center h-[60vh] bg-cover bg-center"
+  style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('image/aboutus.jpg');">
+  <div class="relative z-10 max-w-3xl px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">About African Child Sports Academy</h1>
+    <p class="text-lg md:text-xl max-w-3xl mx-auto">
+      Building a brighter future through football, discipline, and education in Ghana.
+    </p>
+  </div>
+</section>
+
+
+
+  <!-- About Content -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <img src="IMAGE/image12.jpg"
+        class="w-full rounded-lg shadow-lg" alt="Youth football training at ACSA" />
+      <div>
+        <h2 class="text-3xl font-bold text-[#001F5B] mb-4">Who We Are</h2>
+        <p class="text-gray-700 mb-4">
+          African Child Sports Academy (ACSA) is a youth-focused football development center based in Accra, Ghana. We identify and nurture raw football talent while instilling academic excellence and character development.
+        </p>
+        <p class="text-gray-700">
+          We train young football talents to perfect their skills and market them to academies, schools , agencies and Clubs all over the world.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Pillars -->
+  <section class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-[#001F5B]">Our Core Pillars</h2>
+        <div class="w-20 h-1 bg-[#D72638] mx-auto mt-2"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fas fa-bullseye text-3xl text-[#D72638] mb-4"></i>
+          <h3 class="text-xl font-semibold text-[#001F5B] mb-2">Our Mission</h3>
+          <p class="text-gray-600">
+            Empowering African youth through football and holistic education while cultivating discipline, leadership, and ambition.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fas fa-eye text-3xl text-[#D72638] mb-4"></i>
+          <h3 class="text-xl font-semibold text-[#001F5B] mb-2">Our Vision</h3>
+          <p class="text-gray-600">
+            To become the leading football academy in West Africa, producing well-rounded talent that excels both on and off the pitch.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <i class="fas fa-heart text-3xl text-[#D72638] mb-4"></i>
+          <h3 class="text-xl font-semibold text-[#001F5B] mb-2">Our Values</h3>
+          <ul class="list-disc list-inside text-gray-600 space-y-1">
+            <li>Discipline</li>
+            <li>Teamwork</li>
+            <li>Excellence</li>
+            <li>Respect</li>
+            <li>Integrity</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-[#001F5B] text-white py-16 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Interested in Joining ACSA?</h2>
+    <p class="mb-6 text-lg">Be part of something great. Apply today or reach out for more information.</p>
+    <a href="contact.html" class="bg-[#D72638] hover:bg-red-600 text-white font-bold py-3 px-6 rounded transition">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-white font-bold text-lg mb-2">About ACSA</h3>
+        <p>African Child Sports Academy is a premier football academy in Accra, Ghana dedicated to developing young talents.</p>
+      </div>
+      <div>
+        <h3 class="text-white font-bold text-lg mb-2">Quick Links</h3>
+        <ul class="space-y-1">
+          <li><a href="index.html" class="hover:text-[#D72638]">Home</a></li>
+          <li><a href="about.html" class="hover:text-[#D72638]">About</a></li>
+          <li><a href="programs.html" class="hover:text-[#D72638]">Programs</a></li>
+          <li><a href="gallery.html" class="hover:text-[#D72638]">Gallery</a></li>
+          <li><a href="contact.html" class="hover:text-[#D72638]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-white font-bold text-lg mb-2">Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt text-[#D72638] mr-2"></i>Ofaakor, Kasoa, Accra</p>
+        <p><i class="fas fa-phone-alt text-[#D72638] mr-2"></i>+233 24 220 9502</p>
+        <p><i class="fas fa-envelope text-[#D72638] mr-2"></i>info@acsaghana.com</p>
+      </div>
+      <div>
+        <h3 class="text-white font-bold text-lg mb-2">Follow Us</h3>
+        <div class="flex space-x-4 text-xl">
+          <a href="https://www.facebook.com/AfricanChildSportsacademy" class="hover:text-[#D72638]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/AfricanChildSportsAcademy" class="hover:text-[#D72638]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm text-gray-500">
+      &copy; 2025 African Child Sports Academy. All rights reserved.
+    </div>
+    <div class="mt-4 text-center text-sm text-gray-400">
+      Developed by <a href="https://elvontechnologies.com" target="_blank" class="text-[#D72638] hover:underline">Elvon Technologies</a>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="hidden fixed bottom-6 right-6 bg-[#D72638] hover:bg-red-700 text-white p-3 rounded-full shadow-lg transition duration-300 z-50" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const backToTopBtn = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTopBtn.classList.toggle('hidden', window.scrollY < 300);
+    });
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

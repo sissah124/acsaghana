@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | African Child Sports Academy</title>
+
+  <!-- Tailwind CSS & Font Awesome -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="bg-white text-[#001F5B] font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-[#001F5B] text-white shadow-md sticky top-0 z-50" role="navigation">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-3 group">
+  <img src="/image/teamlogo.jpg" alt="ACSA Logo" class="h-10 w-10 object-contain transition-transform group-hover:scale-110 duration-300" />
+  <span class="text-xl font-bold text-white group-hover:text-[#D72638] transition">ACSA</span>
+</a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-[#D72638]">Home</a>
+        <a href="about.html" class="hover:text-[#D72638]">About</a>
+        <a href="programs.html" class="hover:text-[#D72638]">Programs</a>
+        <a href="gallery.html" class="text-[#D72638] font-bold">Gallery</a>
+        <a href="contact.html" class="hover:text-[#D72638]">Contact</a>
+      </nav>
+      <button id="mobile-menu-btn" class="md:hidden text-2xl">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-[#001F5B]">
+      <a href="index.html" class="block hover:text-[#D72638]">Home</a>
+      <a href="about.html" class="block hover:text-[#D72638]">About</a>
+      <a href="programs.html" class="block hover:text-[#D72638]">Programs</a>
+      <a href="gallery.html" class="block text-[#D72638] font-semibold">Gallery</a>
+      <a href="contact.html" class="block hover:text-[#D72638]">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="h-64 bg-cover bg-center flex items-center justify-center text-white text-center"
+    style="background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?auto=format&fit=crop&w=1600&q=80');">
+    <h1 class="text-4xl md:text-5xl font-bold">Gallery</h1>
+  </section>
+
+  <!-- Gallery Section -->
+  <main class="py-16 px-4 max-w-7xl mx-auto">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-[#001F5B] mb-2">Memorable Moments</h2>
+      <p class="text-gray-600">Explore highlights from our training sessions, matches, and events.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <!-- Image Cards -->
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image1.jpg"
+          alt="Youth football team on training ground" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image2.jpg"
+          alt="Young player practicing footwork" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image3.jpg"
+          alt="Academy players listening to coach" class="w-full h-56 object-cover object-top rounded-lg" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image4.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image5.jpg"
+          alt="Team celebrating a goal" class="w-full h-56 object-cover" />
+      </div>
+
+          <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image6.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image7.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image8.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image9.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover object- " />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image10.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image11.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg shadow hover:scale-105 transition duration-300">
+        <img src="IMAGE/image12.jpg"
+          alt="Goalkeeper during match" class="w-full h-56 object-cover" />
+      </div>
+    </div>
+  </main>
+
+  <!-- Call to Action -->
+  <section class="bg-[#001F5B] text-white py-12 text-center">
+    <h2 class="text-2xl font-bold mb-4">Want to join the experience?</h2>
+    <p class="mb-6">Get in touch or enroll now and become part of the ACSA family.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="contact.html" class="bg-[#D72638] hover:bg-red-600 text-white font-bold px-6 py-3 rounded-md transition">Contact Us</a>
+      <a href="contact.html" class="border border-white hover:bg-white hover:text-[#001F5B] font-bold px-6 py-3 rounded-md transition">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-lg mb-2">About ACSA</h3>
+        <p>African Child Sports Academy is a premier football academy in Accra, Ghana dedicated to developing young talents.</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Quick Links</h3>
+        <ul class="space-y-1">
+          <li><a href="index.html" class="hover:text-[#D72638]">Home</a></li>
+          <li><a href="about.html" class="hover:text-[#D72638]">About</a></li>
+          <li><a href="programs.html" class="hover:text-[#D72638]">Programs</a></li>
+          <li><a href="gallery.html" class="hover:text-[#D72638]">Gallery</a></li>
+          <li><a href="contact.html" class="hover:text-[#D72638]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt text-[#D72638] mr-2"></i>Ofaakor, Kasoa, Accra</p>
+        <p><i class="fas fa-phone-alt text-[#D72638] mr-2"></i>+233 24 220 9502</p>
+        <p><i class="fas fa-envelope text-[#D72638] mr-2"></i>info@acsaghana.com</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Follow Us</h3>
+        <div class="flex space-x-4 text-xl">
+          <a href="https://www.facebook.com/AfricanChildSportsacademy"class="hover:text-[#D72638]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/AfricanChildSportsAcademy"class="hover:text-[#D72638]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm text-gray-300">
+      &copy; 2025 African Child Sports Academy. All rights reserved.
+    </div>
+    <div class="mt-2 text-center text-sm text-gray-400">
+      Developed by <a href="https://elvontechnologies.com" target="_blank" class="text-[#D72638] hover:underline">Elvon Technologies</a>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="hidden fixed bottom-6 right-6 bg-[#D72638] hover:bg-red-700 text-white p-3 rounded-full shadow-lg transition duration-300 z-50" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script>
+    document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('hidden', window.scrollY < 300);
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+
+</html>

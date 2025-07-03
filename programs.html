@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs - ACSA</title>
+
+  <!-- Tailwind & Font Awesome -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="bg-white text-[#001F5B] font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-[#001F5B] text-white sticky top-0 z-50 shadow" role="navigation">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-3 group">
+  <img src="/image/teamlogo.jpg" alt="ACSA Logo" class="h-10 w-10 object-contain transition-transform group-hover:scale-110 duration-300" />
+  <span class="text-xl font-bold text-white group-hover:text-[#D72638] transition">ACSA</span>
+</a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="hover:text-[#D72638]">Home</a>
+        <a href="about.html" class="hover:text-[#D72638]">About</a>
+        <a href="programs.html" class="text-[#D72638] font-semibold">Programs</a>
+        <a href="gallery.html" class="hover:text-[#D72638]">Gallery</a>
+        <a href="contact.html" class="hover:text-[#D72638]">Contact</a>
+      </nav>
+      <button id="menu-btn" class="md:hidden text-2xl" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden px-4 pb-4 space-y-2 bg-[#001F5B]">
+      <a href="index.html" class="block hover:text-[#D72638]">Home</a>
+      <a href="about.html" class="block hover:text-[#D72638]">About</a>
+      <a href="programs.html" class="block text-[#D72638] font-semibold">Programs</a>
+      <a href="gallery.html" class="block hover:text-[#D72638]">Gallery</a>
+      <a href="contact.html" class="block hover:text-[#D72638]">Contact</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+ <section 
+  class="relative text-white text-center flex items-center justify-center h-[60vh] bg-cover bg-center"
+  style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('image/programs.jpg');">
+  <div class="relative z-10 max-w-3xl px-4">
+    <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Programs</h1>
+    <p class="text-lg md:text-xl max-w-3xl mx-auto">
+      Explore a range of football programs designed to develop passion, skill, and professionalism.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Programs List -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Program Card -->
+        <article class="bg-gray-100 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1543351611-58f69d7c1781" alt="Junior Program" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h2 class="text-2xl font-bold text-[#001F5B] mb-2">Junior Development</h2>
+            <p class="text-gray-700 mb-4">Ages 6–12 | Building fundamental skills, teamwork, and passion for the game.</p>
+            <a href="contact.html" class="text-[#D72638] font-medium hover:underline">Enroll Now</a>
+          </div>
+        </article>
+
+        <!-- Program Card -->
+        <article class="bg-gray-100 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018" alt="Elite Training" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h2 class="text-2xl font-bold text-[#001F5B] mb-2">Elite Training</h2>
+            <p class="text-gray-700 mb-4">Ages 13–Above | High-performance coaching for aspiring professionals and scouts.</p>
+            <a href="contact.html" class="text-[#D72638] font-medium hover:underline">Enroll Now</a>
+          </div>
+        </article>
+
+        <!-- Program Card -->
+        <article class="bg-gray-100 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img src="IMAGE/image2.jpg" alt="Goalkeeper Academy" class="w-full h-48 object-cover" />
+          <div class="p-6">
+            <h2 class="text-2xl font-bold text-[#001F5B] mb-2">Goalkeeper Academy</h2>
+            <p class="text-gray-700 mb-4">All ages | Focused on reflexes, technique, and positioning for future shot-stoppers.</p>
+            <a href="contact.html" class="text-[#D72638] font-medium hover:underline">Enroll Now</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-[#001F5B] text-white py-16 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Discover Your Football Path</h2>
+    <p class="mb-6 text-lg">Not sure which program suits you? Reach out and let us help you decide.</p>
+    <a href="contact.html" class="bg-[#D72638] hover:bg-red-600 text-white font-bold py-3 px-6 rounded transition">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-lg mb-2">About ACSA</h3>
+        <p>African Child Sports Academy is a premier football academy in Accra, Ghana dedicated to developing young talents.</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Quick Links</h3>
+        <ul class="space-y-1">
+          <li><a href="index.html" class="hover:text-[#D72638]">Home</a></li>
+          <li><a href="about.html" class="hover:text-[#D72638]">About</a></li>
+          <li><a href="programs.html" class="hover:text-[#D72638]">Programs</a></li>
+          <li><a href="gallery.html" class="hover:text-[#D72638]">Gallery</a></li>
+          <li><a href="contact.html" class="hover:text-[#D72638]">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Contact Info</h3>
+        <p><i class="fas fa-map-marker-alt text-[#D72638] mr-2"></i>Ofaakor, Kasoa, Accra</p>
+        <p><i class="fas fa-phone-alt text-[#D72638] mr-2"></i>+233 24 220 9502</p>
+        <p><i class="fas fa-envelope text-[#D72638] mr-2"></i>info@acsaghana.com</p>
+      </div>
+      <div>
+        <h3 class="font-bold text-lg mb-2">Follow Us</h3>
+        <div class="flex space-x-4 text-xl">
+          <a href="https://www.facebook.com/AfricanChildSportsacademy" class="hover:text-[#D72638]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/AfricanChildSportsAcademy" class="hover:text-[#D72638]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-[#D72638]" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm text-gray-300">
+      &copy; 2025 African Child Sports Academy. All rights reserved.
+    </div>
+    <div class="mt-2 text-center text-sm text-gray-400">
+      Developed by <a href="https://elvontechnologies.com" target="_blank" class="text-[#D72638] hover:underline">Elvon Technologies</a>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="hidden fixed bottom-6 right-6 bg-[#D72638] hover:bg-red-700 text-white p-3 rounded-full shadow-lg transition duration-300 z-50" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JS -->
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('hidden', window.scrollY < 300);
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+
+</body>
+</html>
